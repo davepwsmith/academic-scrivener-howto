@@ -15,11 +15,7 @@ It also includes a Pandoc citation style so that you can quick cite directly fro
 **3.** Write your work in (http://pandoc.org/README.html#pandocs-markdown]pandoc-flavoured markdown[/url]. For citations, you can either:
     a. Copy and paste from Zotero using quick cite and the pandoc citation style.
     b. Use my [zotpick-pandoc applet](https://github.com/davepwsmith/zotpick-applescript). For installation and usage instructions follow the link.
-**4.a** (optional, OSX only) It's possible (quite easy) to set up the excellent  [Marked 2 app](http://marked2app.com) with pandoc as a processor (you can choose the processor in Marked's preferences). You need to put the path to your pandoc installation in the 'Path:' box  -- probably:
-
-```bash
-/usr/local/bin/pandoc[/code] and any arguments you need in the 'Args:' box -- probably [code]-r markdown -w html -s -S --normalize --bibliography ~/.pandoc/YOUR_BIBLIOGRAPHY.bib --csl ~/.csl/YOUR_CITATION_STYLE.csl
-```
+**4.a** (optional, OSX only) It's possible (quite easy) to set up the excellent  [Marked 2 app](http://marked2app.com) with pandoc as a processor (you can choose the processor in Marked's preferences). You need to put the path to your pandoc installation in the 'Path:' box  -- probably: `/usr/local/bin/pandoc` and any arguments you need in the 'Args:' box -- probably `-r markdown -w html -s -S --normalize --bibliography ~/.pandoc/YOUR_BIBLIOGRAPHY.bib --csl ~/.csl/YOUR_CITATION_STYLE.csl`
 
 This, along with marked's ability to watch a scrivener file, gives you a live preview of your document. I have created a clear, academic-ish style for marked (called, unimaginatively, `Academia.css`) which you can download from the [Marked Custom Styles Repository](https://github.com/ttscoff/MarkedCustomStyles)
 
