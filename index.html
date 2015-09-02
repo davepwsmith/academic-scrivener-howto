@@ -19,6 +19,13 @@
         <p>A robust setup for academic writing in Scrivener including references and bibliography, output to PDF and docx, and live preview.</p>
 
         <p class="view"><a href="https://github.com/davepwsmith/academic-scrivener-howto">View the Project on GitHub <small>davepwsmith/academic-scrivener-howto</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/davepwsmith/academic-scrivener-howto/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/davepwsmith/academic-scrivener-howto/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/davepwsmith/academic-scrivener-howto">View On <strong>GitHub</strong></a></li>
+        </ul>
       </header>
       <section>
         <h2>
@@ -45,8 +52,10 @@
 
 <p><strong>4.</strong> Export your scrivener document as plain text markdown (MYPROJECT.txt) –- i.e. not using any of the markdown conversion options etc. since we're already writing everything in markdown anyway (you can use my preset to do this if you can make it work) -– and use a pandoc command to convert it into a filetype of your choice, eg.</p>
 
-<pre><code>pandoc -s -S --normalize --bibliography ~/.pandoc/YOUR_BIBLIOGRAPHY.bib \
---csl ~/.csl/YOUR_CITATION_STYLE.csl -f markdown -t docx \
+<pre><code>pandoc -s -S --normalize --bibliography \
+~/.pandoc/YOUR_BIBLIOGRAPHY.bib \
+--csl ~/.csl/YOUR_CITATION_STYLE.csl \
+-f markdown -t docx \
 -o MYPROJECT.docx MYPROJECT.txt
 </code></pre>
 
