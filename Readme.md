@@ -1,4 +1,4 @@
-##Academic writing: Scrivener, Zotero, Pandoc, Marked 2
+##Academic writing with Scrivener, Zotero, Pandoc and Marked 2
 
 The following is a very robust and well tested setup for using Scrivener and Zotero, since it's something that took me a while to work out, and it might save people the hassle! This is a very detailed description of how to set it up, so don't be put off by the length. It should take no more than 15-20 minutes, less for someone familiar with the tools used. *There is another way of doing this documented [here](https://zotplus.github.io/better-bibtex/cayw.html), but I think that the method outlined below is less likely to break on updates and ultimately simpler.*
 
