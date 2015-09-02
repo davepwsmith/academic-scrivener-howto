@@ -423,3 +423,7 @@ Small Device Styles
   }
 
 }
+/* Kill the download links */
+section#downloads {
+display=none;
+}
