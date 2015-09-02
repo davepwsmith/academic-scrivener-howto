@@ -12,7 +12,7 @@ It also includes a Pandoc citation style so that you can quick cite directly fro
 
 **2.** Install [Pandoc](http://pandoc.org/) and [download the appropriate csl file](http://citationstyles.org/) for your preferred style to somewhere sensible. Pandoc will check `~/.csl/` by default.
 
-**3.** Write your work in (http://pandoc.org/README.html#pandocs-markdown]pandoc-flavoured markdown[/url]. For citations, you can either:
+**3.** Write your work in [pandoc-flavoured markdown](http://pandoc.org/README.html#pandocs-markdown). For citations, you can either:
     a. Copy and paste from Zotero using quick cite and the pandoc citation style.
     b. Use my [zotpick-pandoc applet](https://github.com/davepwsmith/zotpick-applescript). For installation and usage instructions follow the link.
 
