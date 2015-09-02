@@ -13,8 +13,8 @@ It also includes a Pandoc citation style so that you can quick cite directly fro
 **2.** Install [Pandoc](http://pandoc.org/) and [download the appropriate csl file](http://citationstyles.org/) for your preferred style to somewhere sensible. Pandoc will check `~/.csl/` by default.
 
 **3.** Write your work in [pandoc-flavoured markdown](http://pandoc.org/README.html#pandocs-markdown). For citations, you can either:
-- a. Copy and paste from Zotero using quick cite and the pandoc citation style.
-- b. Use my [zotpick-pandoc applet](https://github.com/davepwsmith/zotpick-applescript). For installation and usage instructions follow the link.
+- Copy and paste from Zotero using quick cite and the pandoc citation style.
+- Use my [zotpick-pandoc applet](https://github.com/davepwsmith/zotpick-applescript). For installation and usage instructions follow the link.
 
 **4.** Export your scrivener document as plain text markdown (MYPROJECT.txt) –- i.e. not using any of the markdown conversion options etc. since we're already writing everything in markdown anyway (you can use my preset to do this if you can make it work) -– and use a pandoc command to convert it into a filetype of your choice, eg.
 
