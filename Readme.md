@@ -19,7 +19,9 @@ It also includes a Pandoc citation style so that you can quick cite directly fro
 **4.** Export your scrivener document as plain text markdown (MYPROJECT.txt) –- i.e. not using any of the markdown conversion options etc. since we're already writing everything in markdown anyway (you can use my preset to do this if you can make it work) -– and use a pandoc command to convert it into a filetype of your choice, eg.
 
 ```
-pandoc -s -S --normalize --bibliography ~/.pandoc/YOUR_BIBLIOGRAPHY.bib --csl ~/.csl/YOUR_CITATION_STYLE.csl -f markdown -t docx -o MYPROJECT.docx MYPROJECT.txt
+pandoc -s -S --normalize --bibliography ~/.pandoc/YOUR_BIBLIOGRAPHY.bib \
+--csl ~/.csl/YOUR_CITATION_STYLE.csl -f markdown -t docx \
+-o MYPROJECT.docx MYPROJECT.txt
 ```
 
 This command would create a full document including any headers, footers or markup needed (`-s`), apply smart typography such as curly quotes (`-S`), conflate any consecutive formatting elements etc. to provide neater output (`--normalize`), use the bibliography (`--bibliography`) and citation style (`--csl`) specified, and convert from (`-f`) markdown to (`-t`) docx, with the output as a file (`-o`) called `MYPROJECT.docx`
