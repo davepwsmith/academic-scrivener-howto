@@ -4,10 +4,7 @@ The following is a very robust and well tested setup for using Scrivener and Zot
 
 **0.** This setup assumes that you will write in [Pandoc flavoured markdown](http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown) - this is by far the best markdown for academic writing, mainly because of its excellent citation support. This is for OSX or Linux, but I'm sure somebody could contribute a windows version if so minded.
 
-**0b.** I like to set up Scrivener to look more like a plain text editor, to remind me that I'm writing in plain text. It's also sensible to set up a compile preset. I have attached my own presets for people to use as they wish, but I've made no effort to check that they work on anybody else's computer (and they definitely won't work on Windows), so buyer beware!
-
-[Pandoc Preset.plist](https://github.com/davepwsmith/academic-scrivener-howto/tree/master/Pandoc%20Preset.plist)
-[Plain Text.prefs](https://github.com/davepwsmith/academic-scrivener-howto/tree/master/Plain%20Text.prefs)
+**0b.** I like to set up Scrivener to look more like a plain text editor, to remind me that I'm writing in plain text. It's also sensible to set up a compile preset. I have uploaded [my own presets](https://github.com/davepwsmith/academic-scrivener-howto/releases/download/1.0/prefs.zip) for people to use as they wish, but I've made no effort to check that they work on anybody else's computer (and they definitely won't work on Windows), so buyer beware!
 
 **1.** Set up zotero with the [Better BibTex plugin](https://zotplus.github.io/better-bibtex/). This is a plugin which a) makes your bibtex keys saner; and b) can auto-export to a bibtex file every time you update the database. Export a collection or the whole database in 'Better Biblatex' style to somewhere sensible (e.g. `~/.zotero/YOUR_BIBLIOGRAPHY.bib`) and make sure you tick the 'Keep Updated' box. 
 
