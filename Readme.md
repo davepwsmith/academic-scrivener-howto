@@ -19,7 +19,7 @@ It also includes a Pandoc citation style so that you can quick cite directly fro
 **4.** Export your scrivener document as plain text markdown (MYPROJECT.txt) –- i.e. not using any of the markdown conversion options etc. since we're already writing everything in markdown anyway (you can use my preset to do this if you can make it work) -– and use a pandoc command to convert it into a filetype of your choice, eg.
 
 ```
-pandoc -s -S --normalize --bibliography ~/.pandoc/YOUR_BIBLIOGRAPHY.bib \
+pandoc -s -S --normalize --bibliography ~/.zotero/YOUR_BIBLIOGRAPHY.bib \
 --csl ~/.csl/YOUR_CITATION_STYLE.csl -f markdown -t docx \
 -o MYPROJECT.docx MYPROJECT.txt
 ```
